@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futuristic Landing Page</title>
+    <title>BALLAR | BEST YOUTUBERS TEAM</title>
     <link rel="stylesheet" href="style.css" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
   <body>
@@ -15,235 +15,624 @@
     <div class="cursor-outer"></div>
     <div class="cursor-inner"></div>
 
-    <!-- Loading Animation -->
-    <div class="loader">
-      <div class="loader-content">
-        <div class="loader-circle"></div>
-        <div class="loader-text">LOADING</div>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <div class="loading-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <div class="loading-text glitch" data-text="BALLAR TAQDIM ETADI . . . ">
+        BALLAR TAQDIM ETADI . . .
+      </div>
+      <div class="loading-progress">
+        <div class="loading-bar"></div>
       </div>
     </div>
 
-    <!-- Header -->
-    <header>
-      <div class="logo">
-        <span class="logo-text">NEON<span class="accent">FLUX</span></span>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#videos">Videos</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="menu-toggle">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <h1 class="glitch-text" data-text="WELCOME TO THE FUTURE">
-          WELCOME TO THE FUTURE
-        </h1>
-        <p class="subtitle">Where creativity meets technology</p>
-        <div class="cta-buttons">
-          <a href="#projects" class="btn btn-primary">Explore Projects</a>
-          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+    <!-- Main Content -->
+    <div class="main-container">
+      <!-- Header -->
+      <header>
+        <div class="logo">
+          <span class="neon-text">BAL</span>
+          <span class="nexus-text">LAR</span>
         </div>
-      </div>
-      <div class="hero-background">
-        <div class="grid"></div>
-        <div class="circles">
-          <div class="circle circle-1"></div>
-          <div class="circle circle-2"></div>
-          <div class="circle circle-3"></div>
+        <nav>
+          <ul>
+            <li><a href="#home" class="nav-link">Bosh sahifa</a></li>
+            <li><a href="#about" class="nav-link">Biz haqimizda</a></li>
+            <li><a href="#projects" class="nav-link">Loyihalar</a></li>
+            <li><a href="#videos" class="nav-link">Kontentlar</a></li>
+            <li><a href="#contact" class="nav-link">Bog'lanish</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
-      </div>
-    </section>
+      </header>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-      <h2 class="section-title">About <span class="accent">Us</span></h2>
-      <div class="about-content">
-        <div class="glass-card">
-          <div class="card-icon">
-            <i class="fas fa-rocket"></i>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1 class="glitch" data-text="HAQIQIY IJOD SHU YERDA ...">
+            HAQIQIY IJOD SHU YERDA ...
+          </h1>
+          <p class="hero-subtitle">BALLAR NO-RASMIY SAYTIGA XUSH KELIBSIZ!</p>
+          <div class="hero-cta">
+            <a href="#projects" class="neon-button">Ko‘rib Chiqish</a>
+            <a href="#contact" class="glass-button">Bog‘lanish </a>
           </div>
-          <h3>Innovation</h3>
+        </div>
+        <div class="hero-background">
+          <div class="grid"></div>
+          <div class="circle-decoration"></div>
+          <div class="circle-decoration"></div>
+          <div class="circle-decoration"></div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <h2 class="section-title" data-text="Biz Haqiqimizda">
+          Biz Haqimizda
+        </h2>
+        <div class="about-content">
+          <div class="glass-card" data-speed="0.1">
+            <div class="card-content">
+              <div class="card-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="48"
+                  height="48"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+                  ></path>
+                </svg>
+              </div>
+              <h3>Auditoriyani his qilish qobiliyatidir.</h3>
+              <p>
+                Har bir ko‘rsatuvni tayyorlashda auditoriyani his qilishga harakat qilamiz, ya’ni qanday gapirsak ularga ta’sir qilishi, biror gap aytilyotganda kadrda nima ketishi kabi narsalar haqida o‘ylaymiz.
+              </p>
+            </div>
+          </div>
+          <div class="glass-card" data-speed="0.15">
+            <div class="card-content">
+              <div class="card-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="48"
+                  height="48"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                  ></polygon>
+                </svg>
+              </div>
+              <h3>Sifatli Kontentlar</h3>
+              <p>
+                Biz siz uchun eng yaxshi va sifatli kontentlar tayyorlaymiz.
+              </p>
+            </div>
+          </div>
+          <div class="glass-card" data-speed="0.2">
+            <div class="card-content">
+              <div class="card-icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="48"
+                  height="48"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
+                  <line x1="9.69" y1="8" x2="21.17" y2="8"></line>
+                  <line x1="7.38" y1="12" x2="13.12" y2="2.06"></line>
+                  <line x1="9.69" y1="16" x2="3.95" y2="6.06"></line>
+                  <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
+                  <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
+                </svg>
+              </div>
+              <h3>Hamma ham buni yoqtirmaydi</h3>
+              <p>
+                To‘g‘risini aytganda, ba’zi odamlar bizning kontentlarimizni
+                yoqtirmaydi. Chunki biz hamma eshitishni istagan gaplarni emas,
+                balki real haqiqatni gapiramiz. Lekin bizning maqsadimiz ham
+                aynan shunda – odamlarni o‘ylashga undash!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section style="margin-top: 200px;" id="projects" class="projects">
+        <h2 class="section-title" data-text="Loyxalarimiz">Loyxalarimiz</h2>
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="premium">Premium</button>
+          <button class="tab-btn" data-tab="Tekin">Tekin</button>
+        </div>
+        <div class="projects-grid tab-content active" id="premium-projects">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./premuim3.jpg" alt="🎥 OSMONDAGI BOLALAR 3" />
+            </div>
+            <div class="project-info">
+              <h3>🎥 OSMONDAGI BOLALAR 3</h3>
+              <p>
+                😍 <strong>9900 SOʻMLIK</strong> BONUS SON💥. Arzon video so'raganlar uchun endi
+                har oy bonus sonlar ham chiqarishni rejalashtirdik, unda siz
+                9900 so'mga bitta bonus sonni harid qilasiz. Hoziroq pastdagi
+                havola orqali botga start bering va 9900 soʻmlik maxsus bonus
+                sonimizni harid qilib loyihamiz rivojiga o'z hissangizni
+                qo'shing👇
+              </p>
+              <a
+                target="blank"
+                href="https://t.me/reaktorpremium/18"
+                class="project-link"
+                >Tomosha Qilish</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <img
+                src="./premuim2.jpg"
+                alt="FEVRAL OYINING 2-MAXSUS SONI HAM CHIQDI💥"
+              />
+            </div>
+            <div class="project-info">
+              <h3>FEVRAL OYINING 2-MAXSUS SONI HAM CHIQDI💥</h3>
+              <p>
+                🎥 1. PSIXOLOG 14-QISM 🎥 2. DACHADAGI ARVOX (AL HAZAR) Hozir
+                siz <strong>59.000 soʻm</strong> toʻlab FEVRAL oyining maxsus kanaliga obuna
+                boʻlishingiz mumkin. 2 ta maxsus sonni sotib olish orqali bizni
+                loyihamizni qoʻllab quvvatlagan boʻlasiz. Pastdagi tugmacha
+                orqali botga start bering bot oʻzi sizni toʻlovga yoʻnaltiradi
+                👇
+              </p>
+              <a
+                href="https://t.me/reaktorpremium/17"
+                target="blank"
+                class="project-link"
+                >Tomosha Qilish</a
+              >
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <img src="./premuim1.jpg" alt="FEVRAL OYINING MAXSUS SONLARI💥" />
+            </div>
+            <div class="project-info">
+              <h3>FEVRAL OYINING MAXSUS SONLARI💥</h3>
+              <p>
+                🎥 1. PSIXOLOG 14-QISM 🎥 2. .... (AL HAZAR) ⚠️ Reaktorchilar
+                uzoq kutilgan FEVRAL oyining maxsus sonlari chiqdi va sizni
+                kutib turibdi 😍 Hozir siz <strong>59.000 soʻm</strong> toʻlab FEVRAL oyining
+                maxsus kanaliga obuna boʻlishingiz mumkin. 2 ta maxsus sonni
+                sotib olish orqali bizni loyihamizni qoʻllab quvvatlagan
+                boʻlasiz. Pastdagi tugmacha orqali botga start bering bot oʻzi
+                sizni toʻlovga yoʻnaltiradi 👇
+              </p>
+              <a href="https://t.me/reaktorpremium/17" class="project-link"
+                >Tomosha Qilish</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="projects-grid tab-content" id="free-projects">
+          <iframe
+            width="100%"
+            height="280px"
+            src="https://www.youtube.com/embed/Hel-_AGmcLY"
+            title="PUBG QURBONLARINI KO‘RDIK | REAKTOR"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe width="100%" height="280px" src="https://www.youtube.com/embed/K_7rlUNA3C8" title="SERIAL AKTYORI MEHMONIMIZ BO‘LDI | REAKTOR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe width="100%" height="280px" src="https://www.youtube.com/embed/bGYO_9A37J0" title="BILL GATESNI AZOBLADIK | REAKTOR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+        </div>
+        </div>
+      </section>
+
+      <!-- Videos Section -->
+      <section id="videos" class="videos">
+        <h2 class="section-title" data-text="REACTION VIDEOS">
+         Kontentlar        </h2>
+        <div class="videos-grid">
+          <div class="video-card">
+            <div class="video-thumbnail">
+              <img src="https://i.ytimg.com/vi/AJmuzuTJuh8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDvOJHdzZZ4CNCIDU1iSmQxrOVjKg" alt="Video 1" />
+              <div class="video-overlay">
+                <a target="_blank" href="https://youtu.be/AJmuzuTJuh8">
+                <div class="play-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="48"
+                    height="48"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div></a>
+              </div>
+            </div>
+            <h3>Angliya — Aytilmagan Haqiqatlar | Jamshidxon Ziyoxonov            </h3>
+            <p>1:27:44 • 1,4m ko'rishlar</p>
+          </div>
+          <div class="video-card">
+            <div class="video-thumbnail">
+              <img src="https://i.ytimg.com/vi/RZJ2f1wRD9A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDuxCvKWfn1oHZqUIUBKGgIu59reA" alt="Video 2" />
+              <div class="video-overlay">
+                <a href="https://youtu.be/RZJ2f1wRD9A" target="_blank">
+                <div class="play-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="48"
+                    height="48"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+                </a>
+              </div>
+            </div>
+            <h3>UMRni uzaytirish MUMKINmi? | NEGA haqiqiy yoshimizni bilmaymiz? |
+            </h3>
+            <p>22:09 • 74K ko'rishlar</p>
+          </div>
+          <div class="video-card">
+            <div class="video-thumbnail">
+              <img src="https://i.ytimg.com/vi/Mg8Npm7Pym0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDTclgZOEUyhfagglbbvW40k3nxWg" alt="Video 3" />
+              <div class="video-overlay">
+                <a href="https://youtu.be/Mg8Npm7Pym0" target="_blank">
+                <div class="play-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="48"
+                    height="48"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              </a>
+              </div>
+            </div>
+            <h3>BIZNI ALDASHGANMI? YERNING ASL SHAKLI | BEKIPEDIA</h3>
+            <p>50:06 • 758K ko'rishlar</p>
+          </div>
+          <div class="video-card">
+            <div class="video-thumbnail">
+              <img src="https://i.ytimg.com/vi/4ymODZahOc4/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCaIUSZOSumHS6cMn-OfqS06F4w7g" alt="Video 4" />
+              <div class="video-overlay">
+                <a target="_blank" href="https://youtu.be/4ymODZahOc4">
+                <div class="play-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="48"
+                    height="48"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </div>
+              </a>
+              </div>
+            </div>
+            <h3>Ommaviy Ongsizlashtirish — Televideniye | SUBYEKTIV
+            </h3>
+            <p>53:45 • 1.7m ko'rishlar</p>
+          </div>
+        </div>
+      </section>
+
+     <!-- Team Section -->
+     <section id="team" class="team">
+      <h2 class="section-title" data-text="OUR TEAM">OUR TEAM</h2>
+      <div class="team-grid">
+          <!-- Team Member 1 -->
+          <div class="team-member">
+              <div class="member-card">
+                  <div class="member-front">
+                      <div class="member-image">
+                          <img src="https://yt3.googleusercontent.com/dRkXqOpILFtZkZNNuvD3a1eg7aog9PKQmjdV0u5upy7hGlxPY6TYwgbjk1kQwKYv5m4_PM52Dkk=s900-c-k-c0x00ffffff-no-rj" alt="Team Member 1">
+                          <div class="member-glow"></div>
+                      </div>
+                      <div class="member-info">
+                          <h3 style="font-size: larger;">Jamshidxon Ziyoxonov</h3>
+                      </div>
+                  </div>
+                  <div class="member-back">
+                      <div class="member-bio">
+                          <p>Digital creator <br>
+                            ⚡️ Something new about the world <br>
+                            🧳 Traveler index 52/13 <br>
+                            📝 Storyteller <br>
+                            ❤️‍🔥 Beloved husband and father</p>
+                      </div>
+                      <div class="member-social">
+                        <a target="_blank" href="https://www.instagram.com/ziyokhonov/" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                          </svg>
+                      </a>
+                      
+                      <a   target="_blank" href="https://www.youtube.com/@Ziyokhonov" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M22.54 6.42A2.78 2.78 0 0 0 20.92 4a30.55 30.55 0 0 0-8.92-.5 30.55 30.55 0 0 0-8.92.5A2.78 2.78 0 0 0 1.46 6.42 29.94 29.94 0 0 0 1 12a29.94 29.94 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.62 2.42 30.55 30.55 0 0 0 8.92.5 30.55 30.55 0 0 0 8.92-.5 2.78 2.78 0 0 0 1.62-2.42A29.94 29.94 0 0 0 23 12a29.94 29.94 0 0 0-.46-5.58z"></path>
+                              <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+                          </svg>
+                      </a>
+                      
+                      <a  target="_blank"  href="https://t.me/ziyokhonov" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M21 3L3 10.53l7.44 2.1L18 6l-8.45 7.3v3.1l3.6-3.1L21 3z"></path>
+                          </svg>
+                      </a>
+                      
+                      <a  target="_blank"  href="https://t.me/ziyokhonov_ads" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M21 3L3 10.53l7.44 2.1L18 6l-8.45 7.3v3.1l3.6-3.1L21 3z"></path>
+                          </svg>
+                      </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-member">
+              <div class="member-card">
+                  <div class="member-front">
+                      <div class="member-image">
+                          <img src="https://pbs.twimg.com/media/FiLkevhXkAEmutZ.jpg" alt="Team Member 2">
+                          <div class="member-glow"></div>
+                      </div>
+                      <div class="member-info">
+                          <h3>Bekmirza Rashidov</h3>
+                      </div>
+                  </div>
+                  <div class="member-back">
+                      <div class="member-bio">
+                          <p>Digital creator <br>
+                            🇺🇿 O'zbek mem arbobi, Fanlar bemori, Ukademik, Dotso'm <br>
+                            🧳 Sayohatchi indeksi 18/5</p>
+                      </div>
+                      <div class="member-social">
+                        <a target="_blank" href="https://www.instagram.com/beckmirza/" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                          </svg>
+                      </a>
+                      
+                      <a   target="_blank" href="https://www.youtube.com/@BekipediA" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M22.54 6.42A2.78 2.78 0 0 0 20.92 4a30.55 30.55 0 0 0-8.92-.5 30.55 30.55 0 0 0-8.92.5A2.78 2.78 0 0 0 1.46 6.42 29.94 29.94 0 0 0 1 12a29.94 29.94 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.62 2.42 30.55 30.55 0 0 0 8.92.5 30.55 30.55 0 0 0 8.92-.5 2.78 2.78 0 0 0 1.62-2.42A29.94 29.94 0 0 0 23 12a29.94 29.94 0 0 0-.46-5.58z"></path>
+                              <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+                          </svg>
+                      </a>
+                      
+                      <a  target="_blank"  href="https://l.instagram.com/?u=https%3A%2F%2Ft.me%2FLSD_pacific%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAaaXSME5DKVJlq6yfv2_It3NAR1SOjefN2RUr6fWo317TZH3phEhV-m1bCI_aem_8P-xYkwLSayxgd6KqsZ0Pg&e=AT3rWKpiw0atemd2OS5ytZZXj-pNYIgfZmoPpjjwg35kl8yEaR37MqJ9eMqBrYE8mPC4caQU_eRPlQbMgk0ZQYvJqp8CgvFFH0upweA" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M21 3L3 10.53l7.44 2.1L18 6l-8.45 7.3v3.1l3.6-3.1L21 3z"></path>
+                          </svg>
+                      </a>
+                      
+                      <a  target="_blank"  href="https://t.me/reaktorpremium" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M21 3L3 10.53l7.44 2.1L18 6l-8.45 7.3v3.1l3.6-3.1L21 3z"></path>
+                          </svg>
+                      </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-member">
+              <div class="member-card">
+                  <div class="member-front">
+                      <div class="member-image">
+                          <img src="https://tdmf24.marketing.uz/uploads/jobs/85c8a1deddf5.webp" alt="Team Member 3">
+                          <div class="member-glow"></div>
+                      </div>
+                      <div class="member-info">
+                          <h3>Abdullajon Yusupov</h3>
+                      </div>
+                  </div>
+                  <div class="member-back">
+                      <div class="member-bio">
+                          <p>▫️Kichkina sahifamda katta ma’lumotlar beraman <br>
+                            ▫️Sayohatchi indeksi 12/3 <br>
+                            ▫️Hamkorlik uchun: +998 95 057 98 99</p>
+                      </div>
+                      <div class="member-social">
+                        <a target="_blank" href="https://www.instagram.com/abdullajon.yusupov" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                          </svg>
+                      </a>
+                      
+                      <a   target="_blank" href="https://www.youtube.com/@magnit_uz" class="social-icon" target="_blank">
+                          <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path d="M22.54 6.42A2.78 2.78 0 0 0 20.92 4a30.55 30.55 0 0 0-8.92-.5 30.55 30.55 0 0 0-8.92.5A2.78 2.78 0 0 0 1.46 6.42 29.94 29.94 0 0 0 1 12a29.94 29.94 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.62 2.42 30.55 30.55 0 0 0 8.92.5 30.55 30.55 0 0 0 8.92-.5 2.78 2.78 0 0 0 1.62-2.42A29.94 29.94 0 0 0 23 12a29.94 29.94 0 0 0-.46-5.58z"></path>
+                              <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+                          </svg>
+                      </a>
+                      
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Team Member 4 -->
+          <div class="team-member">
+              <div class="member-card">
+                  <div class="member-front">
+                      <div class="member-image">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC1CH3cb4mQwFz2Mi6w89AEF7q9pC-aVc8QQ&s" alt="Team Member 4">
+                          <div class="member-glow"></div>
+                      </div>
+                      <div class="member-info">
+                          <h3>Farrux Sharipov</h3>
+                      </div>
+                  </div>
+                  <div class="member-back">
+                      <div class="member-bio">
+                          <p>Video creator <br>
+                            .filming <br>
+                            .editing <br>
+                            .color grading
+                            </p>
+                      </div>
+                      <div class="member-social">
+                            <a target="_blank" href="https://www.instagram.com/farrukhsharipov_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-icon">
+                              <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  
+      <!-- Footer -->
+      <footer>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span class="neon-text">BAL</span>
+            <span class="nexus-text">LAR</span>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path
+                  d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                ></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                stroke="currentColor"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
           <p>
-            Pushing boundaries with cutting-edge technology and creative
-            solutions.
+            © 2025 BALLAR. Web-sayt Iskandarov Firdavs tomonidan yaratilgan .
+            Ushbu sayt muxlis tomonidan ijodga hurmat sifatida yaratilgan.
+            Rasmiy emas va tijoriy maqsadda foydalanilmaydi!
           </p>
-        </div>
-        <div class="glass-card">
-          <div class="card-icon">
-            <i class="fas fa-lightbulb"></i>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
           </div>
-          <h3>Creativity</h3>
-          <p>Transforming ideas into visually stunning digital experiences.</p>
         </div>
-        <div class="glass-card">
-          <div class="card-icon">
-            <i class="fas fa-users"></i>
-          </div>
-          <h3>Our Team</h3>
-          <p>A collective of forward-thinking designers and developers.</p>
-        </div>
-      </div>
-    </section>
+      </footer>
+    </div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-      <h2 class="section-title">Our <span class="accent">Projects</span></h2>
-      <div class="projects-filter">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="paid">Paid</button>
-        <button class="filter-btn" data-filter="free">Free</button>
-      </div>
-      <div class="projects-grid">
-        <div class="project-card" data-category="paid">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/400x300" alt="Project 1" />
-          </div>
-          <div class="project-info">
-            <h3>Neon Dashboard</h3>
-            <p>A futuristic admin dashboard with advanced analytics</p>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-        <div class="project-card" data-category="free">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/400x300" alt="Project 2" />
-          </div>
-          <div class="project-info">
-            <h3>Cyber Portfolio</h3>
-            <p>Open-source portfolio template with cyberpunk aesthetics</p>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-        <div class="project-card" data-category="paid">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/400x300" alt="Project 3" />
-          </div>
-          <div class="project-info">
-            <h3>Glow Commerce</h3>
-            <p>E-commerce platform with neon-themed UI/UX</p>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-        <div class="project-card" data-category="free">
-          <div class="project-image">
-            <img src="https://via.placeholder.com/400x300" alt="Project 4" />
-          </div>
-          <div class="project-info">
-            <h3>Tech Blog</h3>
-            <p>Minimalist blog template with futuristic elements</p>
-            <a href="#" class="project-link">View Project</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Videos Section -->
-    <section id="videos" class="videos">
-      <h2 class="section-title">Reaction <span class="accent">Videos</span></h2>
-      <div class="videos-grid">
-        <div class="video-card">
-          <div class="video-thumbnail">
-            <img src="https://via.placeholder.com/400x225" alt="Video 1" />
-            <div class="play-button">
-              <i class="fas fa-play"></i>
-            </div>
-          </div>
-          <h3>Future of Web Design</h3>
-          <p>Exploring upcoming trends in web development</p>
-        </div>
-        <div class="video-card">
-          <div class="video-thumbnail">
-            <img src="https://via.placeholder.com/400x225" alt="Video 2" />
-            <div class="play-button">
-              <i class="fas fa-play"></i>
-            </div>
-          </div>
-          <h3>UI Animation Showcase</h3>
-          <p>Reacting to the best UI animations of 2023</p>
-        </div>
-        <div class="video-card">
-          <div class="video-thumbnail">
-            <img src="https://via.placeholder.com/400x225" alt="Video 3" />
-            <div class="play-button">
-              <i class="fas fa-play"></i>
-            </div>
-          </div>
-          <h3>Tech Review</h3>
-          <p>Latest gadgets and tools for designers</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-      <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
-      <div class="contact-container">
-        <div class="contact-info">
-          <div class="info-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>123 Neon Street, Digital City</p>
-          </div>
-          <div class="info-item">
-            <i class="fas fa-envelope"></i>
-            <p>hello@neonflux.com</p>
-          </div>
-          <div class="info-item">
-            <i class="fas fa-phone"></i>
-            <p>+1 (234) 567-8900</p>
-          </div>
-        </div>
-        <form class="contact-form">
-          <div class="form-group">
-            <input type="text" id="name" required />
-            <label for="name">Your Name</label>
-            <div class="line"></div>
-          </div>
-          <div class="form-group">
-            <input type="email" id="email" required />
-            <label for="email">Your Email</label>
-            <div class="line"></div>
-          </div>
-          <div class="form-group">
-            <textarea id="message" required></textarea>
-            <label for="message">Your Message</label>
-            <div class="line"></div>
-          </div>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-content">
-        <div class="footer-logo">
-          <span class="logo-text">NEON<span class="accent">FLUX</span></span>
-        </div>
-        <div class="social-links">
-          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
-          <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-        </div>
-        <p class="copyright">© 2023 NEONFLUX. All rights reserved.</p>
-      </div>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.0/bundled/lenis.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
